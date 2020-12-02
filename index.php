@@ -72,6 +72,12 @@ require 'header.php';
       </div>
     </div>
   </section>
+  <script type="text/javascript">$(document).ready(function(){
+  $("#card").flip({
+    axis: 'x',
+    trigger: 'click'
+  })
+});</script>
 
   <footer class="footer text-faded text-center py-5">
     <div class="container">
@@ -80,8 +86,11 @@ require 'header.php';
   </footer>
 
   <!-- Bootstrap core JavaScript -->
+  
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  
 
 </body>
 
