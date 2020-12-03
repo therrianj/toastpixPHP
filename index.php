@@ -19,6 +19,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/business-casual.min.css" rel="stylesheet">
+  <link href="css/toast.css" rel="stylesheet">
 
 </head>
 
@@ -34,8 +35,9 @@ require 'header.php';
   <section>
     <div class="container">
       <div class="intro">
-        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="toastpix2.svg" alt="">
-        
+        <div class="logo-wrapper">
+          <img class="img-fluid mb-3 mb-lg-0 rounded" src="toastpix2.svg" alt="">
+        </div>
       </div>
     </div>
   </section>
@@ -57,27 +59,22 @@ require 'header.php';
     </div>
   </section>
 
-  <section class="mt-10 page-section cta">
+  <section class="mt-10 page-section cta" style="clear:both">
     <div class="container">
-      <div class="row">
-        <div class="col-xl-9 mx-auto">
+<!--       <div class="row">
+        <div class="col-xl-9 mx-auto"> -->
           <div class="cta-inner text-center rounded">
             <h2 class="section-heading mb-4">
               <span class="section-heading-upper">Our Promise</span>
               <span class="section-heading-lower">To You</span>
             </h2>
             <p class="mb-0">We get the job done. You have a job and we want to toast it. White, wheat, multi-grain, it doesn't matter to us. There isn't a slice of bread on the shelf we can't toast.</p>
-          </div>
-        </div>
+<!--           </div>
+        </div> -->
       </div>
     </div>
   </section>
-  <script type="text/javascript">$(document).ready(function(){
-  $("#card").flip({
-    axis: 'x',
-    trigger: 'click'
-  })
-});</script>
+  
 
   <footer class="footer text-faded text-center py-5">
     <div class="container">
@@ -89,7 +86,7 @@ require 'header.php';
   
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  
   
 
 </body>

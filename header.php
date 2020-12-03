@@ -44,7 +44,7 @@
             <a class="nav-link text-uppercase text-expanded" href="about.php">About</a>
           </li>
           <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="http://www.toastpix.com/visitxian">Visit Xi'An</a>
+            <a class="nav-link text-uppercase text-expanded" href="http://visitxian.toastpix.com/">Visit Xi'An</a>
           </li>
           <li class="nav-item px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="http://www.xianbrewery.com">Xian Brewery</a>
