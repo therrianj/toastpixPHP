@@ -4,9 +4,39 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-business-casual/blob/master/LICENSE)
  */
 
-body {
+/* lora-regular - latin */
+@font-face {
   font-family: 'Lora';
-  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/bg.jpg");
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/lora-v16-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/lora-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/lora-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/lora-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/lora-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/lora-v16-latin-regular.svg#Lora') format('svg'); /* Legacy iOS */
+}
+
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/raleway-v18-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/raleway-v18-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/raleway-v18-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/raleway-v18-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/raleway-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/raleway-v18-latin-regular.svg#Raleway') format('svg'); /* Legacy iOS */
+}
+
+
+
+body {
+  font-family: 'Raleway';
+  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/toastback.webp");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
